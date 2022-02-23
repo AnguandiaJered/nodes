@@ -12,7 +12,8 @@ const schema = mongoose.Schema({
         require:true
     },
     password:{
-        type:String
+        type:String,
+        require:true
     }
 })
 
